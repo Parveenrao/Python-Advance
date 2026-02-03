@@ -20,7 +20,7 @@ class CountDown:
     def __iter__(self):
         return self
     
-    def __next(self):
+    def __next__(self):
         if self.num <=0:
             raise StopIteration
         
